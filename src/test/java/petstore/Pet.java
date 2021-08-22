@@ -82,6 +82,7 @@ public class Pet {
         .when()
                 .put(uri)
         .then()
+
                 .log().all()
                 .statusCode(200)
                 .body("name", is("Alice"))
