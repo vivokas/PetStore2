@@ -1,0 +1,18 @@
+{
+  "id": 1210199031,
+  "category": {
+    "id": 1,
+    "name": "NE22CA08LA2021"
+  },
+  "name": "Alice",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 22082021,
+      "name": "data"
+    }
+  ],
+  "status": "sold"
+}
