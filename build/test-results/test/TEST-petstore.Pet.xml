@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="petstore.Pet" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-22T15:11:02" hostname="VIVIANE-DESKTOP" time="11.854">
+<testsuite name="petstore.Pet" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-08-22T16:00:04" hostname="VIVIANE-DESKTOP" time="24.645">
   <properties/>
-  <testcase name="incluirPet" classname="petstore.Pet" time="11.854"/>
+  <testcase name="incluirPet" classname="petstore.Pet" time="23.289"/>
+  <testcase name="consultarPet" classname="petstore.Pet" time="1.347"/>
   <system-out><![CDATA[Request method:	POST
 Request URI:	https://petstore.swagger.io/v2/pet
 Proxy:			<none>
@@ -18,7 +19,7 @@ Body:
     "id": 1210199031,
     "category": {
         "id": 1,
-        "name": "dog"
+        "name": "NE22CA08LA2021"
     },
     "name": "Alice",
     "photoUrls": [
@@ -26,14 +27,14 @@ Body:
     ],
     "tags": [
         {
-            "id": 2021,
-            "name": "sta"
+            "id": 22082021,
+            "name": "data"
         }
     ],
     "status": "available"
 }
 HTTP/1.1 200 OK
-Date: Sun, 22 Aug 2021 15:11:06 GMT
+Date: Sun, 22 Aug 2021 16:00:20 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -46,7 +47,7 @@ Server: Jetty(9.2.9.v20150224)
     "id": 1210199031,
     "category": {
         "id": 1,
-        "name": "dog"
+        "name": "NE22CA08LA2021"
     },
     "name": "Alice",
     "photoUrls": [
@@ -54,12 +55,53 @@ Server: Jetty(9.2.9.v20150224)
     ],
     "tags": [
         {
-            "id": 2021,
-            "name": "sta"
+            "id": 22082021,
+            "name": "data"
         }
     ],
     "status": "available"
 }
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/1210199031
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=aplication/json; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 22 Aug 2021 16:00:24 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1210199031,
+    "category": {
+        "id": 1,
+        "name": "NE22CA08LA2021"
+    },
+    "name": "Alice",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 22082021,
+            "name": "data"
+        }
+    ],
+    "status": "available"
+}
+O token é NE22CA08LA2021
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

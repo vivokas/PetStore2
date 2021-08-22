@@ -14,7 +14,7 @@
     "id": 1210199031,
     "category": {
         "id": 1,
-        "name": "dog"
+!        "name": "NE22CA08LA2021"
     },
     "name": "Alice",
     "photoUrls": [
@@ -23,15 +23,15 @@
     "tags": [
 
         {
-            "id": 2021,
-            "name": "sta"
+            "id": 22082021,
+            "name": "data"
 
         }
     ],
     "status": "available"
 }
 HTTP/1.1 200 OK
-%Date: Sun, 22 Aug 2021 15:11:06 GMT
+%Date: Sun, 22 Aug 2021 16:00:20 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -44,7 +44,7 @@
     "id": 1210199031,
     "category": {
         "id": 1,
-        "name": "dog"
+!        "name": "NE22CA08LA2021"
     },
     "name": "Alice",
     "photoUrls": [
@@ -53,10 +53,53 @@
     "tags": [
 
         {
-            "id": 2021,
-            "name": "sta"
+            "id": 22082021,
+            "name": "data"
 
         }
     ],
     "status": "available"
 }
+Request method:	GET
+<Request URI:	https://petstore.swagger.io/v2/pet/1210199031
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+6				Content-Type=aplication/json; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+%Date: Sun, 22 Aug 2021 16:00:24 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1210199031,
+    "category": {
+        "id": 1,
+!        "name": "NE22CA08LA2021"
+    },
+    "name": "Alice",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+
+        {
+            "id": 22082021,
+            "name": "data"
+
+        }
+    ],
+    "status": "available"
+}
+O token é NE22CA08LA2021
